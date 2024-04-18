@@ -64,6 +64,9 @@ const Register = () => {
     }
     return (
         <div className="w-2/3 mx-auto text-center space-y-8">
+             <Helmet>
+        <title>Sweet Home | Register</title>
+      </Helmet>
             <h1 className="text-2xl font-bold">Register Here</h1>
             <form onSubmit={handleRegister} className="space-y-8">
             <label className="input input-bordered flex items-center gap-2">

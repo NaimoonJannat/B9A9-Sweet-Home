@@ -11,6 +11,9 @@ const CardDetails = () => {
     return (
 
         <div>
+             <Helmet>
+        <title>Card Details: {card.id}</title>
+      </Helmet>
             <div className="card lg:p-8">
             <div className="bg-[#1313130D] rounded-2xl  flex justify-center items-center">
                 <img className="w-full" src={card.image} />

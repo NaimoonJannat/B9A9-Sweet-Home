@@ -30,6 +30,9 @@ const Login = () => {
   }
     return (
         <div className="w-2/3 mx-auto text-center space-y-8">
+             <Helmet>
+        <title>Sweet Home | Login</title>
+      </Helmet>
             <h1 className="text-2xl font-bold">Please Login</h1>
             <form onSubmit={handleLogin} className="space-y-8">
             <label className="input input-bordered flex items-center gap-2">
