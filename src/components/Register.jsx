@@ -3,6 +3,7 @@ import { IoEyeOutline, IoEyeOffOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import auth from "../firebase/firebase.config";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
+import { Helmet } from "react-helmet-async";
 
 const Register = () => {
     const[registerError, setRegisterError]=useState('');

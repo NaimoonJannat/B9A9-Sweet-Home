@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useLoaderData, useParams } from "react-router-dom";
 
 
@@ -12,7 +13,7 @@ const CardDetails = () => {
 
         <div>
              <Helmet>
-        <title>Card Details: {card.id}</title>
+        <title>Card Details</title>
       </Helmet>
             <div className="card lg:p-8">
             <div className="bg-[#1313130D] rounded-2xl  flex justify-center items-center">

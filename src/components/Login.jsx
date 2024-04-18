@@ -3,6 +3,7 @@ import { useRef, useState } from "react";
 import auth from "../firebase/firebase.config";
 import { Link } from "react-router-dom";
 import { IoEyeOutline, IoEyeOffOutline } from "react-icons/io5";
+import { Helmet } from "react-helmet-async";
 
 const Login = () => {
     const[loginError, setLoginError]=useState('');

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import SaleCards from "./SaleCards";
 import Slider from "./Slider";
 
