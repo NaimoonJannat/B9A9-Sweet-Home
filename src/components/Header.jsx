@@ -16,7 +16,9 @@ const Header = () => {
         <li><NavLink to="/login">Login</NavLink></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Sweet Home</a>
+    <div>
+    <a className="btn btn-ghost text-2xl text-[#ef5060e9]">Sweet Home</a>
+    </div>
   </div>
   <div className="navbar-end hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

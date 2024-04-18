@@ -17,7 +17,7 @@
       "segment_name": "Apartment",
       "description": "Contemporary 2-bedroom apartment in the city center",
       "price": "$600,000",
-      "Status": "sale",
+      "Status": "rent",
       "Area": "1,200 sq ft",
       "location": "New York, NY",
       "facilities": ["living room", "gym", "balcony"],
