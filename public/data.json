@@ -1,0 +1,99 @@
+[
+    {
+      "estate_title": "Luxury Villa",
+      "id": 1,
+      "segment_name": "Single Home",
+      "description": "A stunning 4-bedroom villa with panoramic views",
+      "price": "$1,200,000",
+      "Status": "sale",
+      "Area": "3,500 sq ft",
+      "location": "Los Angeles, CA",
+      "facilities": ["swimming pool", "garden"],
+      "image": "https://i.ibb.co/LS63VTW/banner3.jpg"
+    },
+    {
+      "estate_title": "Modern Apartment",
+      "id": 2,
+      "segment_name": "Apartment",
+      "description": "Contemporary 2-bedroom apartment in the city center",
+      "price": "$600,000",
+      "Status": "sale",
+      "Area": "1,200 sq ft",
+      "location": "New York, NY",
+      "facilities": ["living room", "gym", "balcony"],
+      "image": "https://i.ibb.co/RYtFK9R/modern.jpg"
+    },
+    {
+      "estate_title": "Townhouse Charm",
+      "id": 3,
+      "segment_name": "Townhouse",
+      "description": "Quaint 3-bedroom townhouse with modern amenities",
+      "price": "$850,000",
+      "Status": "sale",
+      "Area": "2,000 sq ft",
+      "location": "Chicago, IL",
+      "facilities": ["living room", "garage"],
+      "image": "https://i.ibb.co/bm8b2r4/banner4.jpg"
+    },
+    {
+      "estate_title": "Beachfront Condo",
+      "id": 4,
+      "segment_name": "Apartment",
+      "description": "Elegant 1-bedroom condo overlooking the ocean",
+      "price": "$500,000",
+      "Status": "rent",
+      "Area": "900 sq ft",
+      "location": "Miami, FL",
+      "facilities": ["living room", "beach access"],
+      "image": "https://i.ibb.co/D8jctKM/seaCondo.jpg"
+    },
+    {
+      "estate_title": "Cozy Bungalow",
+      "id": 5,
+      "segment_name": "Single Home",
+      "description": "Charming 2-bedroom bungalow with a rustic feel",
+      "price": "$400,000",
+      "Status": "sale",
+      "Area": "1,500 sq ft",
+      "location": "Austin, TX",
+      "facilities": ["living room", "garden", "porch"],
+      "image": "https://i.ibb.co/XtvHcy7/banner1.jpg"
+    },
+    {
+      "estate_title": "City Loft",
+      "id": 6,
+      "segment_name": "Apartment",
+      "description": "Spacious 1-bedroom loft in a bustling neighborhood",
+      "price": "$750,000",
+      "Status": "sale",
+      "Area": "1,100 sq ft",
+      "location": "San Francisco, CA",
+      "facilities": ["living room", "rooftop terrace"],
+      "image": "https://i.ibb.co/T4HnDDZ/banner2.jpg"
+    },
+    {
+      "estate_title": "Senior Living Community",
+      "id": 7,
+      "segment_name": "Senior Living",
+      "description": "Comfortable 2-bedroom unit in a vibrant senior community",
+      "price": "$300,000",
+      "Status": "sale",
+      "Area": "1,000 sq ft",
+      "location": "Denver, CO",
+      "facilities": [ "community center", "garden"],
+      "image": "https://i.ibb.co/r0r7wCs/senior.jpg"
+    },
+    {
+      "estate_title": "Mountain Retreat",
+      "id": 8,
+      "segment_name": "Vacation Rental",
+      "description": "Secluded 3-bedroom cabin perfect for weekend getaways",
+      "price": "$350/night",
+      "Status": "rent",
+      "Area": "2,500 sq ft",
+      "location": "Aspen, CO",
+      "facilities": ["hot tub", "fireplace"],
+      "image": "https://i.ibb.co/9rVd916/mountain.jpg"
+    }
+  ]
+
