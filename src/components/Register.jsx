@@ -25,6 +25,11 @@ const Register = () => {
             setRegisterError('Your password should have at least one uppercase character')
             return;
         }
+        else if(!/[a-z]/.test(password)){
+            setRegisterError('Your password should have at least one lowercase character')
+            return;
+        }
+        
         else if(!accepted){
             setRegisterError('Please accept our terms and conditions');
             return;
