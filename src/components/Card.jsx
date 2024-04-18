@@ -2,7 +2,7 @@ import { FaMapLocationDot } from "react-icons/fa6";
 import { CiLocationOn } from "react-icons/ci";
 import { Link } from "react-router-dom";
 const Card = ({card}) => {
-    const {estate_title,segment_name,description,price,Status,facilities,image,Area,location} = card;
+    const {id, estate_title,segment_name,description,price,Status,facilities,image,Area,location} = card;
     return (
         <div className="card border-[#f65e5ec8] border-2 bg-base-100 shadow-xl">
           <figure className="">
@@ -39,7 +39,7 @@ const Card = ({card}) => {
             <h2 className="text-xl font-bold">{price}</h2>
             <div className="bg-[#ef50605e] rounded-3xl w-1/4 text-base p-2font-semibold flex justify-center items-center">{Status}</div>
             </div>
-            <Link className="bg-[#ef5060e9] btn rounded-3xl text-base p-3 text-white font-semibold flex justify-center items-center">View Details</Link>
+            <Link to={`/card/${id}`} className="bg-[#ef5060e9] btn rounded-3xl text-base p-3 text-white font-semibold flex justify-center items-center">View Details</Link>
           </div>
         </div>
     );

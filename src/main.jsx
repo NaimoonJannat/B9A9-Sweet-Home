@@ -12,6 +12,7 @@ import UpdateProfile from './components/UpdateProfile';
 import Login from './components/Login';
 import Register from './components/Register';
 import ErrorPage from './components/ErrorPage';
+import CardDetails from './components/CardDetails';
 
  const router = createBrowserRouter([ 
   { 
@@ -34,6 +35,11 @@ import ErrorPage from './components/ErrorPage';
     {
       path: '/register',
       element:<Register></Register>
+    },
+    {
+      path: "/card/:id",
+      element: <CardDetails></CardDetails>,
+      loader: () => fetch('../data.json')
     }
   ]
   }, 
