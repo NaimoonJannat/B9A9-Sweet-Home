@@ -25,3 +25,28 @@ Sweet Home is a modern and responsive real estate website designed to help you f
 - **Tailwind CSS**: Utility-first CSS framework for styling.
   
 - **Firebase**: Backend services for authentication and database management.
+
+## Installation
+
+To get a local copy up and running, follow these steps:
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine. You can download them from [here](https://nodejs.org/).
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/NaimoonJannat/B9A9-Sweet-Home.git
+
+ 2. **Navigate to the project directory:** 
+   cd real-estate
+
+3. **Install Dependencies:**
+    npm i 
+    npm run dev
+
+4. Open your browser and navigate to 'http://localhost:3000' to see the application running.
+
+
